@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 7px;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Pathway Extreme", sans-serif;
+  color: greenyellow;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #333;
+}
+
+.font {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Pathway Extreme", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  padding: 1.6rem 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header {
+  height: 46rem;
+}
+
+header .bg-image {
+  position: absolute;
+  background-image: url(./images/bgiiiiiiiiiiimage.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 46rem;
+  width: 100%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+header h1 {
+  padding: 12rem;
+  padding-bottom: 0;
+}
+
+.btn {
+  display: inline-block;
+  background: black;
+  color: greenyellow;
+  border: 1px solid black;
+  padding: 1.6rem 3.2rem;
+  margin: 0.5rem 0;
+  transition: all 0.4s;
+}
+.btn:hover {
+  background-color: greenyellow;
+  color: #333;
+}
+
+#section-a {
+  background-color: #eaeaea;
+  color: #333;
+  padding: 3.2rem 0;
+}
+
+#section-b {
+  padding: 2rem;
+}
+#section-b ul {
+  list-style: none;
+}
+#section-b li {
+  background: greenyellow;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.col-content {
+  padding: 1.5rem;
+}
+
+#section-c {
+  background-color: #eaeaea;
+  color: #333;
+  padding: 5rem;
+}
+
+#section-d .box {
+  padding: 5rem;
+  color: #fff;
+}
+#section-d .box:first-child {
+  background-color: #333;
+}
+#section-d .box:last-child {
+  background-color: #333;
+}
+
+footer {
+  padding: 4rem;
+  color: #333;
+  background-color: greenyellow;
+}
+
+footer a {
+  color: purple;
+}
+#youtube {
+  color: red;
+}
+#ınstagram {
+  color: pink;
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 5px;
+  }
+}
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 11px;
+  }
+  #section-b li {
+    width: 28%;
+    margin: 1%;
+    display: inline-block;
+  }
+}
+
+.box {
+  width: 50%;
+  float: left;
+}
+li {
+  border: 1px solid black;
+  border-radius: 45px;
+}
